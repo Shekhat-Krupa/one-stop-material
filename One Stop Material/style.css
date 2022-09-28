@@ -58,6 +58,13 @@ html, body{
   margin-top: .3rem;
   margin-bottom: 1rem;
 }
+.row {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
 .card{
   justify-items: center;
   width: 250px;
