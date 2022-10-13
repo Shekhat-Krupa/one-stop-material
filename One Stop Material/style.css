@@ -47,6 +47,15 @@ html, body{
 .padding {
   padding-bottom: 2rem;
 } 
+.row{
+	 margin-left: center;
+}
+/* .row {
+  display: flex;
+  flex-wrap: inherit;
+  margin-right: -15px;
+  margin-left: -15px;
+} */
 .welcome {
   width: 75%;
   margin: 0 auto;
@@ -58,19 +67,12 @@ html, body{
   margin-top: .3rem;
   margin-bottom: 1rem;
 }
-.row {
-  justify-content: center;
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
-}
-.card{
+.card-m{
   justify-items: center;
   width: 250px;
   height: 300px;
 }
-.card-img-top{
+.card-m-img-top{
   justify-items: center;
   width: 200px;
   height: 250px;
