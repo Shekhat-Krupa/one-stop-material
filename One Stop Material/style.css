@@ -89,7 +89,7 @@ html, body{
 }
 .fa-code, .fa-bold, .fa-css3 {
   font-size: 4em;
-  margin: 1rem;
+  margin: 0.2rem;
 }
 .fun{
   width: 100%;
@@ -99,8 +99,8 @@ html, body{
   max-width: 100%;
 }
 .social a {
-  font-size: 4.5em;
-  padding: 3rem;
+  font-size: 2em;
+  padding: 1rem;
 }
 .fa-facebook {
   color: #3b5998;
