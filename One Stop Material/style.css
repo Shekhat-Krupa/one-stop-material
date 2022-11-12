@@ -73,7 +73,11 @@ html, body{
   height: 300px;
 }
 .card-m-img-top{
-  justify-items: center;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  margin-left: 0rem;
+  margin-right: 0rem;
+  justify-items: flex;
   width: 200px;
   height: 250px;
 }
@@ -232,8 +236,13 @@ hr.light-100 {
 .col-md-12{
   margin-top: 100px;
   padding-top: 100px;
+  
 }
-
+[class*="col-"] {
+  padding: 1rem;
+  margin-top: 3rem;
+margin-bottom: 3rem;
+}
 /*--- Bootstrap Padding Fix --*/
 [class*="col-"] {
     padding: 1rem;
